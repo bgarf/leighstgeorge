@@ -1,0 +1,35 @@
+#timetable-container {
+    width: 70%;
+    height: 284px;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: minmax(200px, 20%) repeat(5, auto);
+    gap: 0 2%;
+}
+
+.column div, .row-title {
+    border-bottom: 0.5px solid #8C8C8C;
+    background-color: #F6F6F4;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+#timetable-container .column {
+    border-right: 1px solid #8C8C8C;
+    border-left: 1px solid #8C8C8C;
+}
+
+.column .title {
+    border-top: 0.5px solid #8C8C8C;
+    color: #F6F6F4;
+    background-color: #B82601;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+#day {
+    margin: 5% auto 2% auto;
+    font-size: 150%;
+}
